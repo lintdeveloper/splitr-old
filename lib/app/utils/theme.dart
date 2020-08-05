@@ -5,10 +5,9 @@ import 'package:splitr/app/utils/utils.dart';
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
-  primaryColor: Colors.blueGrey[900],
-  cursorColor: GREEN_HUE,
+  primaryColor: BLUE_HUE,
   fontFamily: GoogleFonts.lato().fontFamily,
-  scaffoldBackgroundColor: LIGHT_BLUE_ACCENT,
+  scaffoldBackgroundColor: Colors.white,
   bottomSheetTheme: BottomSheetThemeData(
     backgroundColor: Colors.blueGrey[50],
   ),
