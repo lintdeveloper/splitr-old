@@ -1,19 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:splitr/app/services/services.dart';
 import 'package:splitr/app/utils/constants.dart';
 import 'package:splitr/app/widgets/responsive_safe_area.dart';
 import 'package:splitr/app/widgets/widgets.dart';
 
 class DashboardScreen extends StatefulWidget {
+  DashboardScreen({Key key, this.auth, this.userId, this.logoutCallback})
+      : super(key: key);
+
+  final BaseAuth auth;
+  final VoidCallback logoutCallback;
+  final String userId;
+
   @override
   _DashboardScreenState createState() => _DashboardScreenState();
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  int _index = 0;
 
   @override
   Widget build(BuildContext context) {
-    print(_index);
     return Scaffold(
       appBar: AppBar(
         leading: Padding(

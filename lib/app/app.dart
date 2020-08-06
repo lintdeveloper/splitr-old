@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:splitr/app/providers/app_store.dart';
+import 'package:splitr/app/services/auth/auth.dart';
 import 'package:splitr/app/utils/utils.dart';
-
-import 'screens/screens.dart';
+import 'package:splitr/app/screens/screens.dart';
 
 class App extends StatelessWidget {
 
@@ -17,7 +17,7 @@ class App extends StatelessWidget {
         title: appName,
         theme: lightTheme,
         debugShowCheckedModeBanner: false,
-        home: DashboardScreen(),
+        home: HomeScreen(auth: new Auth()),
       ),
     );
   }
