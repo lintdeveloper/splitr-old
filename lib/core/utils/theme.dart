@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:splitr/app/utils/utils.dart';
-
+import 'package:splitr/core/utils/utils.dart';
 
 final ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:splitr/app/services/services.dart';
-import 'package:splitr/app/utils/constants.dart';
-import 'package:splitr/app/widgets/responsive_safe_area.dart';
-import 'package:splitr/app/widgets/widgets.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/widgets/responsive_safe_area.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/widgets/widgets.dart';
+import 'package:splitr/core/services/auth/index.dart';
+import 'package:splitr/core/utils/utils.dart';
 
 class DashboardScreen extends StatefulWidget {
   DashboardScreen({Key key, this.auth, this.userId, this.logoutCallback})

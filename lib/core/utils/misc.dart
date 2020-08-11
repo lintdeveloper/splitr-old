@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:splitr/app/utils/utils.dart';
+import 'package:splitr/core/utils/utils.dart';
 
 class ShowDialog {
   ShowDialog({BuildContext context}) {

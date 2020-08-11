@@ -1,9 +1,9 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:splitr/app/models/member.dart';
-import 'package:splitr/app/utils/constants.dart';
-import 'package:splitr/app/widgets/member-item.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/widgets/member-item.dart';
+import 'package:splitr/core/models/models.dart';
+import 'package:splitr/core/utils/utils.dart';
 
 class GroupCards extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:splitr/app/screens/dashboard-screen.dart';
-import 'package:splitr/app/screens/login-screen.dart';
-import 'package:splitr/app/services/services.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/screens/dashboard-screen.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/screens/login-screen.dart';
+import 'package:splitr/core/services/auth/index.dart';
 
 enum AuthStatus { NOT_DETERMINED, NOT_LOGGED_IN, LOGGED_IN }
 

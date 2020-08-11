@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:splitr/app/models/member.dart';
-import 'package:splitr/app/utils/constants.dart';
+import 'package:splitr/core/models/models.dart';
+import 'package:splitr/core/utils/utils.dart';
 
 class MemberItem extends StatelessWidget {
   final int index;

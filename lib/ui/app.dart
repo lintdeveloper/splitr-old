@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:splitr/app/providers/app_store.dart';
-import 'package:splitr/app/services/auth/auth.dart';
-import 'package:splitr/app/utils/utils.dart';
-import 'package:splitr/app/screens/screens.dart';
+import 'package:splitr/core/providers/app_store.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/core/services/auth/auth.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/screens/screens.dart';
+import 'package:splitr/core/utils/utils.dart';
 
 class App extends StatelessWidget {
 

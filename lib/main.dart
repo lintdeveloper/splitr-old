@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:splitr/app/app.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/app.dart';
 import 'package:splitr/locator.dart';
 
 void main() async {

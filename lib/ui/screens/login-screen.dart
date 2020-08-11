@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:splitr/app/screens/dashboard-screen.dart';
-import 'package:splitr/app/services/services.dart';
+import 'file:///C:/Users/Helpdesk/Documents/Opensource/splitr/lib/ui/screens/dashboard-screen.dart';
+import 'package:splitr/core/services/auth/index.dart';
+
 
 class LoginScreen extends StatefulWidget {
   LoginScreen({this.auth, this.loginCallback});
